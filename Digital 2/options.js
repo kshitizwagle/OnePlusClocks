@@ -1,0 +1,1 @@
+var twelvehour = true; //12h or 24h clock

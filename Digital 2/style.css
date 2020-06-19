@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: "Phenomena-Black";
+  background-color: transparent;
+  color: rgb(131, 131, 131);
+  margin-top: 50px;
+}
+
+.time::first-letter{
+  color: red;
+}
+
+.time {
+    font-size: 5em;
+}
+
+.line {
+  font-weight: lighter;
+  font-size: 15px;
+  margin-left: -40px;
+  letter-spacing: 0.8px;
+}
+
+::selection{
+  background-color: transparent;
+}
+
+@font-face{
+  font-family: "Phenomena-Black";
+  src: url('fonts/Phenomena-Black.ttf');
+}
+
+@font-face{
+  font-family: "Phenomena-Bold";
+  src: url('fonts/Phenomena-Bold.ttf');
+}

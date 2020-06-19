@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  font-family: "Phenomena-Black";
+  background-color: transparent;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.time::first-letter {
+  color: red;
+}
+
+.time {
+    font-size: 4em;
+}
+
+.line {
+  font-size: 1.2em;
+}
+
+@font-face{
+  font-family: "Phenomena-Black";
+  src: url('fonts/Phenomena-Black.ttf');
+}
+
+@font-face{
+  font-family: "Phenomena-Bold";
+  src: url('fonts/Phenomena-Bold.ttf');
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="time.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+
+<body onload="startDate(), startTime()">
+    <div id="align">
+        <div class="time">
+            <div>It's</div>
+            <a id="hour"></a><br /><a id="min"></a>
+        </div>
+        <div class="line">
+            <a id="day"></a>
+            <a id="date"></a>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("align").style.textAlign = alignment;
+</script>
+</html>
