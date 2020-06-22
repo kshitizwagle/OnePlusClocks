@@ -20,6 +20,7 @@ function startTime() {
     "Nine",
     "Ten",
     "Eleven",
+    "Twelve"
   ];
   document.getElementById("hour").innerHTML = hours[h];
   var minutes = [
